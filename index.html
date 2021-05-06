@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/player.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+    apiKey: "AIzaSyAp3pXEmsj0r-cTWS0zXZOFpRJa6PYxUqg",
+    authDomain: "super-rocket-60a7b.firebaseapp.com",
+    databaseURL: "https://super-rocket-60a7b-default-rtdb.firebaseio.com",
+    projectId: "super-rocket-60a7b",
+    storageBucket: "super-rocket-60a7b.appspot.com",
+    messagingSenderId: "61005541574",
+    appId: "1:61005541574:web:68dcb7d811525f91e127c7",
+    measurementId: "G-8RQVW2JLP8"
+  };
+      //add here
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
