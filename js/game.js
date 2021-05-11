@@ -110,7 +110,7 @@ class Game{
           bground.y = displayHeight/4;
       }
 
-     //player.velocityY = player.velocityY + 0.8;
+     player.velocityY = player.velocityY + 0.8;
 
     
       drawSprites();
